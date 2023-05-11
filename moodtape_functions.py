@@ -65,7 +65,7 @@ def select_tracks(sp, top_tracks_uri, mood):
         for track in results["items"][:10]:
             selected_tracks_uri.append(track["track"]["uri"])
     elif mood == 'sadness':
-        playlist_id = "37i9dQZF1EVJSvZp5AOML2"
+        playlist_id = "37i9dQZF1EIdChYeHNDfK5"
         results = sp.playlist_tracks(playlist_id)
         for track in results["items"][:10]:
             selected_tracks_uri.append(track["track"]["uri"])
