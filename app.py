@@ -17,7 +17,7 @@ messages = [{'role': 'system',
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = "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"
 
 global chat
 chat = ''
