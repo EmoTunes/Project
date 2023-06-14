@@ -2,6 +2,7 @@ body {
     background-size: cover;
     background-image: url("bg3.jpg");
     background-attachment: fixed;
+    background-position: center;
    /* backdrop-filter: blur(5px);*/
     margin: 0;
     padding: 0;
